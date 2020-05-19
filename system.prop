@@ -1,8 +1,5 @@
 ro.product.brand=lenovo
-ro.product.name=jd2019
-ro.product.device=jd2019
 ro.product.mod_device=jd2019_global
-ro.build.product=jd2019
 ro.treble.enabled=true
 sys.usb.rndis.func.name=rndis_bam
 sys.usb.rmnet.func.name=rmnet_bam
