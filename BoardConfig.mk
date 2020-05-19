@@ -26,7 +26,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-LOCAL_PATH := device/lenovo/kunlun2
+LOCAL_PATH := device/lenovo/jd2019
 
 # Architecture
 TARGET_ARCH := arm64
@@ -94,7 +94,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # TWRP specific build flags
-TARGET_OTA_ASSERT_DEVICE := kunlun2
+TARGET_OTA_ASSERT_DEVICE := jd2019
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"

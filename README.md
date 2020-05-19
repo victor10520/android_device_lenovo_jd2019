@@ -1,7 +1,7 @@
-# android_device_xiaomi_kunlun2
-For building TWRP for Lenovo Z6 Lite
+# android_device_xiaomi_jd2019
+For building TWRP for Lenovo Z5S
 
-TWRP device tree for Lenovo Z6 Lite
+TWRP device tree for Lenovo Z5S
 
 ## Features
 
@@ -33,21 +33,21 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/kunlun2" name="mauronofrio/android_device_lenovo_kunlun2" remote="github" revision="android-9.0" />
+<project path="device/xiaomi/jd2019" name="mauronofrio/android_device_lenovo_jd2019" remote="github" revision="android-9.0" />
 ```
 
 Finally execute these:
 
 ```
 . build/envsetup.sh
-lunch omni_kunlun2-eng
+lunch omni_jd2019-eng
 mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp tree.
 ```
 
 To test it:
 
 ```
-fastboot flash recovery out/target/product/kunlun2/recovery.img
+fastboot flash recovery out/target/product/jd2019/recovery.img
 ```
 
 ## Other Sources
