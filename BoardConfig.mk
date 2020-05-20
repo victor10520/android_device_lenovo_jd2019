@@ -136,3 +136,4 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 # Android Verified Boot
 BOARD_AVB_ENABLE := false
 BOARD_BUILD_DISABLED_VBMETAIMAGE := true
+TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint"
