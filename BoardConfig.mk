@@ -72,6 +72,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
 
+TARGET_TAP_TO_WAKE_NODE := "/sys/class/touch/tp_dev/gesture_on"
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
